@@ -171,6 +171,7 @@ checksum = "f665ee40bc4a3c5590afb1e9677db74a508659dfd71e126420da8274909a0167"
 [[package]]
 name = "mixlayer"
 version = "0.1.0"
+source = "git+https://github.com/mixlayer/mixlayer.git#697146f2c1540764e2e242aee75d470aea6bb9c9"
 dependencies = [
  "anyhow",
  "http",
@@ -186,6 +187,7 @@ dependencies = [
 [[package]]
 name = "mixlayer-data"
 version = "0.1.0"
+source = "git+https://github.com/mixlayer/mixlayer.git#697146f2c1540764e2e242aee75d470aea6bb9c9"
 dependencies = [
  "anyhow",
  "bytes",
@@ -197,6 +199,7 @@ dependencies = [
 [[package]]
 name = "mixlayer-graph"
 version = "0.1.0"
+source = "git+https://github.com/mixlayer/mixlayer.git#697146f2c1540764e2e242aee75d470aea6bb9c9"
 dependencies = [
  "anyhow",
  "bytes",
@@ -218,6 +221,7 @@ dependencies = [
 [[package]]
 name = "mixlayer-macros"
 version = "0.1.0"
+source = "git+https://github.com/mixlayer/mixlayer.git#697146f2c1540764e2e242aee75d470aea6bb9c9"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -227,6 +231,7 @@ dependencies = [
 [[package]]
 name = "mixlayer-runtime-ffi"
 version = "0.1.0"
+source = "git+https://github.com/mixlayer/mixlayer.git#697146f2c1540764e2e242aee75d470aea6bb9c9"
 dependencies = [
  "prost",
  "prost-build",

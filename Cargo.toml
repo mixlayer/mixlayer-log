@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 log = { version = "0.4.8" }
-mixlayer = { path = "../mixlayer/lib" }
-mixlayer-runtime-ffi = { path = "../mixlayer/runtime-ffi" }
+mixlayer = { git = "https://github.com/mixlayer/mixlayer.git" }
+mixlayer-runtime-ffi = { git = "https://github.com/mixlayer/mixlayer.git" }
